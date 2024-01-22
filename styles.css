@@ -58,6 +58,7 @@
 
 #destinations {
   display: flex;
+  justify-content: center;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
@@ -73,6 +74,11 @@
   font-size: 24px;
   color: rgb(124, 123, 123);
   margin: 20px 0;
+  }
+
+  #highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227,225,253),rgb(202,243,240))
   }
 
 .destination img {
